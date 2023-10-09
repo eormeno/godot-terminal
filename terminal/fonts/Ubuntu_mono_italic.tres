@@ -1,0 +1,9 @@
+[gd_resource type="DynamicFont" load_steps=2 format=3]
+
+[ext_resource type="DynamicFontData" uid="uid://4q8aj33bmlvd" path="res://terminal/fonts/UbuntuMono-Italic.ttf" id="1"]
+
+[resource]
+
+font/size = 16
+font/font = ExtResource( 1 )
+

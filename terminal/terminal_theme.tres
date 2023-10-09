@@ -1,0 +1,17 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://d3kiuijnff0x0"]
+
+[ext_resource type="FontFile" uid="uid://jkvg2g43fyur" path="res://terminal/fonts/UbuntuMono-Regular.ttf" id="1_7vvcd"]
+[ext_resource type="FontFile" uid="uid://cxnnu5pa7igk" path="res://terminal/fonts/UbuntuMono-Bold.ttf" id="2_nc6js"]
+[ext_resource type="FontFile" uid="uid://bd884lkymc8t4" path="res://terminal/fonts/UbuntuMono-BoldItalic.ttf" id="3_flbb4"]
+[ext_resource type="FontFile" uid="uid://4q8aj33bmlvd" path="res://terminal/fonts/UbuntuMono-Italic.ttf" id="4_1md4s"]
+
+[resource]
+Label/fonts/font = ExtResource("1_7vvcd")
+LineEdit/font_sizes/font_size = 14
+LineEdit/fonts/font = ExtResource("1_7vvcd")
+RichTextLabel/constants/line_separation = 4
+RichTextLabel/fonts/bold_font = ExtResource("2_nc6js")
+RichTextLabel/fonts/bold_italics_font = ExtResource("3_flbb4")
+RichTextLabel/fonts/italics_font = ExtResource("4_1md4s")
+RichTextLabel/fonts/mono_font = ExtResource("1_7vvcd")
+RichTextLabel/fonts/normal_font = ExtResource("1_7vvcd")
